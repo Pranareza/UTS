@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/daily"
+            android:icon="@drawable/ic_sentiment_very_satisfied_black_24dp"
+            android:title="Daily Activity" />
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/ic_image_black_24dp"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/music"
+            android:icon="@drawable/ic_music_video_black_24dp"
+            android:title="Music Favorite dan Video" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+
+    </group>
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_subdirectory_arrow_left_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
